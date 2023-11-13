@@ -37,7 +37,6 @@ pipeline:
                     image: jelastic/springboot
                     shell: Sh
                     command: |-
-                      cd shopizer
                       mvnw clean install
                       cd sm-shop
                       mvnw spring-boot:run
