@@ -37,7 +37,7 @@ pipeline:
                     image: jelastic/springboot
                     shell: Sh
                     command: |-
-                      mvnw clean install
+                      mvn clean install
                       cd sm-shop
-                      mvnw spring-boot:run
+                      mvn spring-boot:run
                   description: Build Ecomm
