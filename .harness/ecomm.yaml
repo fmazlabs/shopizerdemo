@@ -34,7 +34,7 @@ pipeline:
                   identifier: BuildEcomm
                   spec:
                     connectorRef: dockerhubfrancislabs
-                    image: jelastic/springboot
+                    image: maven
                     shell: Sh
                     command: |-
                       mvn clean install
